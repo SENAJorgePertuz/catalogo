@@ -76,12 +76,15 @@ Lavavajillas	Lavavajillas eficientes y de bajo consumo	2 productos
 ## Características de Diseño
 
 ### Paleta de Colores
+
 css
+```Bash
 --primary: #0072CF;      /* Azul corporativo */
 --primary-dark: #0056a3; /* Azul oscuro */
 --whatsapp: #25D366;     /* Verde WhatsApp */
 --discount: #dc3545;     /* Rojo descuentos */
 --dark: #343a40;         /* Texto principal */
+```
 
 ### Efectos Visuales
 
@@ -93,6 +96,7 @@ css
 
 ### Estructura del Proyecto
 
+```Bash
 PagosTech/
 ├── index.html                 
 ├── public/
@@ -103,6 +107,7 @@ PagosTech/
 │   └── images/
 │       └── favicon.ico        
 └── README.md                  
+```
 
 ## Instalación y Uso
 
@@ -134,6 +139,7 @@ PagosTech/
 ### Agregar Nuevos Productos
 
 javascript
+```Bash
 {
     id: 21,
     name: "NUEVO PRODUCTO",
@@ -147,17 +153,20 @@ javascript
     images: ["url-imagen-1", "url-imagen-2"],
     hasDiscount: true
 }
+```
 
 ### Personalizar Estilos
 
 Modificar las variables CSS en catalogoClient.css:
 
 css
+```Bash
 :root {
     --primary: #TuColorPrincipal;
     --primary-dark: #TuColorOscuro;
     /* ... más personalizaciones */
 }
+``` 
 
 ### Características de Accesibilidad
 
